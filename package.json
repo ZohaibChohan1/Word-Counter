@@ -1,0 +1,22 @@
+{
+  "name": "@zohaib01/word-counter",
+  "version": "1.0.0",
+  "description": "This Is a World Counter Command Line Tool",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zohaib Chohan",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
